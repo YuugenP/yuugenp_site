@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Kosugi+Maru|Overpass&display=swap');
+
+body {
+	background-color: 0;
+	display: flex;
+	font-family: 'Overpass', sans-serif;
+	color: white;
+	justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-size: 150%;
+    overflow: hidden;
+}
+
+#jp {
+	font-family: 'Kosugi Maru', sans-serif;
+}
+
+.bigbox {
+	display:block;
+	flex-flow:row;
+}
+.box {
+	display: block;
+	flex-flow:row;
+	border: 2px solid #FFF;
+	padding: 1em
+}
+
+.content {
+	display: block;
+	flex-flow:row;
+	line-height: 1.5em
+}
