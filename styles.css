@@ -10,12 +10,27 @@ body {
     height: 100vh;
     width: 100vw;
     font-size: 125%;
-    overflow: hidden;
 }
 .small {
 	color: #AAA;
 	font-size:85%;
 	padding-left: 1em
+}
+.genre{
+	color: #AAA;
+	font-size:85%;
+	line-height: 1.5em;
+
+}
+.songinfo{
+	color: #AAA;
+	font-size:75%;
+	line-height: 1.5em;
+
+}
+.comments {
+	color: #AAA;
+	font-size:75%
 }
 a {
 	color: white
@@ -51,13 +66,24 @@ main {
 	display: flex;
 	flex-flow:row;
 }
-
+.songbox {
+	display:flex;
+	flex-flow: column
+}
 .box {
 	display: flex;
 	flex-flow:column wrap;
 	justify-content: space-evenly;
 	border: 2px solid #FFF;
 	padding: 1em
+}
+
+.infobox{
+	display: flex;
+	flex-flow:column wrap;
+	justify-content: space-evenly;
+	border: 2px solid #FFF;
+	padding: 0.5em
 }
 
 .boxh {
