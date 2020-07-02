@@ -1,6 +1,5 @@
 <html>
 <head>
-
 	<link href="styles.css" rel="stylesheet">
 </head>
 
@@ -12,19 +11,14 @@
 			Home Page
 		</div>
 		<!-- Navbar-->
-			<div class="horizontal">
-				<div class="boxh">
-					Home Page
-				</div>
-				<div class="boxh">
-					<a href="gallery.html">Gallery</a>
-				</div>
-				<div class="boxh">
-					<a href="aboutme.html">About Me</a>
-				</div><div class="boxh">
-					<a href="irai.html">Commission Details</a>
-				</div>
+		<div class="horizontal">
+			<div class="box">
+				Home Page
 			</div>
+			<div class="box">
+				<a href="moon.html">Crescent Moon under the Raining Sky</a>
+			</div>
+		</div>
 			<br>
 			<div class="bigbox">
 					
@@ -71,59 +65,13 @@
 					<br>
 					<div class="box">
 						<div class="contentright" id="texthi">
-							Greetings.
-						</div>
-						<div class="contentright" id="callme"> 
-							You can either call me <b>rN</b> or <b>YuugenP</b>.
-						</div>
-						<div class="contentright" id="interest">
-							I'm a Thai student interested in the "monochromatic" musical aesthetic.
-						</div>
-						<div class="contentright" id="age">
-							<!-- NOPE, NO HINTS HERE -->	
-						</div>
-						<div class="contentright" id="pleased">
-							Pleased to meet you. Welcome.
+							1st Solo Album <br>
+							<b>"Crescent Moon under the Raining Sky"</b><br>
+							Crossfade Out Now<br>
+							<iframe width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/849643249&color=%231f1f1f&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/rurinn" title="rN" target="_blank" style="color: #cccccc; text-decoration: none;">rN</a> · <a href="https://soundcloud.com/rurinn/crossfade-crescent-moon-under-the-raining-sky" title="[Crossfade] Crescent Moon under the Raining Sky" target="_blank" style="color: #cccccc; text-decoration: none;">[Crossfade] Crescent Moon under the Raining Sky</a></div>
 						</div>
 					</div>
 				</div>
-			<script type="text/javascript"> 
-			function _calculateAge(birthday) { // birthday is a date
-    			var ageDifMs = Date.now() - birthday.getTime();
-				var ageDate = new Date(ageDifMs); // miliseconds from epoch
-				
-				return Math.abs(ageDate.getUTCFullYear() - 1970)
-				
-			}
-
-			function getAge(){
-				var date = new Date('2001-12-27T14:02')
-				var difference = _calculateAge(date)
-			
-				document.getElementById('age').innerHTML = "I'm " + difference + " years old."
-				setTimeout(getAge, 100)
-			}
-
-			getAge()
-			</script>
-			<div id="time">
-				test
-			</div>
-			<script type="text/javascript">
-			function pad(n, width, z) {
- 				z = z || '0';
-  				n = n + '';
-  				return n.length >= width ? n : new Array(width - n.length + 1).join(z) + n;
-			}
-			function getTime(){
-				var nowdate = new Date()
-				var str = `It's currently ${nowdate.getHours()}:${pad(nowdate.getMinutes(), 2)}:${pad(nowdate.getSeconds(), 2)}`
-				document.getElementById('time').innerHTML = str
-				setTimeout(getTime, 100)
-			}
-
-			getTime()
-			</script>
 	</main>
 	
 </body>
