@@ -15,6 +15,21 @@ body {
 	font-size:85%;
 	padding-left: 1em
 }
+.smallw {
+	color: #FFF;
+	font-size:85%;
+	padding-left: 1em
+}
+.smalldes_a {
+	color: #AAA;
+	font-size:85%;
+	padding-left: 1em
+}
+.smalldes_b {
+	color: #666;
+	font-size:85%;
+	padding-left: 1em
+}
 .genre{
 	color: #AAA;
 	font-size:85%;
