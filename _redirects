@@ -1,1 +1,6 @@
-/home   /moon.html
+# for root
+/*              /index.html     200
+​
+# for the rest
+/lore/*        /lore.html     200
+/moon/*      /moon.html   200
